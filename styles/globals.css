@@ -31,17 +31,22 @@ a {
 
 .carousel {
   overflow: hidden;
+  display: flex;
+  /* white-space: nowrap; */
 }
 
-.inner {
-  /* white-space: nowrap;
-  transition: transform 0.3s; */
-}
+/* .inner {
+
+} */
 
 .carousel-item {
+  /* white-space: nowrap; */
+  transition: transform 0.3s;
   align-items: center;
   justify-content: center;
-  /* height: 394px; */
+  height: 494px;
+  min-width: 100%;
+  width: 100%;
   /* background-color: green; */
   color: #fff;
 }

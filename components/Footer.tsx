@@ -6,7 +6,7 @@ import instagram from "../assets/FrontendPractical/instagram.png";
 
 function Footer() {
   return (
-    <div className="bg-black h-[90vh] w-[100vw] text-white pt-40">
+    <div className="bg-black min-h-[90vh] w-[100vw] text-white pt-40">
       <div className="relative h-[269px] w-[80%] mx-auto flex gap-5 mt-24">
         <p className="text-[#40D7C8] text-4xl font-medium mr-80">
           wallets{" "}

@@ -8,7 +8,7 @@ import Playlogo from "../assets/FrontendPractical/Playlogo.png";
 
 function Blog() {
   return (
-    <div className="bg-white h-[150vh] w-[100vw] relative">
+    <div className="bg-white min-h-[150vh] w-[100vw] relative">
       <div className="flex items-center justify-between pt-[70px] w-[80%] relative mx-auto">
         <div>
           <h1 className="mt-[10px] text-2xl text-black font-[Eksell]">

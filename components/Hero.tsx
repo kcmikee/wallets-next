@@ -52,7 +52,7 @@ function Hero() {
   );
 
   return (
-    <Container className="h-[100vh] relative w-full overflow-x-hidden">
+    <Container className="min-h-[100vh] relative w-full overflow-x-hidden">
       <img
         src={bg.src}
         alt="bg"

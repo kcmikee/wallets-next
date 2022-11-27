@@ -48,7 +48,7 @@ function Cards() {
                   key={card.id}
                 >
                   <h1
-                    className={`pl-5 text-[30px] font-[Eksell]  ${
+                    className={`pl-5 text-[30px] font-[Eksell] text-black ${
                       active !== card.id && "opacity-40"
                     }`}
                   >
@@ -98,7 +98,7 @@ function Cards() {
 export default Cards;
 
 const Container = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   background: rgb(230, 244, 247);
